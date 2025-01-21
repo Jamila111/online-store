@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "price": 1499.99,
+    "imgUrl": "/imgs/iphone-15-pro-max.jpg",
+    "description": "Latest iPhone with revolutionary features",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": 1199.99,
+    "imgUrl": "/imgs/Samsung-Galaxy-S23-Ultra.webp",
+    "description": "Premium Android smartphone with S Pen",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "MacBook Pro 16\"",
+    "price": 2499.99,
+    "imgUrl": "/imgs/Macbook.webp",
+    "description": "Powerful laptop for professionals",
+    "category": "Laptops",
+    "brand": "Apple",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "price": 1999.99,
+    "imgUrl": "/imgs/Dell XPS 15.jpg",
+    "description": " Powerful Windows laptop ",
+    "category": "Laptops",
+    "brand": "Dell",
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM4",
+    "price": 349.99,
+    "imgUrl": "/imgs/headphones.webp",
+    "description": "Premium noise-canceling headphones",
+    "category": "Audio",
+    "brand": "Sony",
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "iPad Pro 12.9\"",
+    "price": 1099.99,
+    "imgUrl": "/imgs/iPad.webp",
+    "description": "Powerful tablet for creators",
+    "category": "Tablets",
+    "brand": "Apple",
+    "rating": 4.7
+  }
+]

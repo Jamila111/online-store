@@ -1,6 +1,6 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import {formatCurrency} from "../utils/formatCurrency.ts";
+import { formatCurrency } from "../utils/formatCurrency.ts";
 
 type StoreItemProps = {
     id: number;
@@ -11,6 +11,7 @@ type StoreItemProps = {
     category: string;
     brand: string;
     rating: number;
+    onImageClick: () => void;
 };
 
 export function StoreItem({
@@ -22,6 +23,7 @@ export function StoreItem({
                               category,
                               rating,
                               brand,
+                              onImageClick,
                           }: StoreItemProps) {
     const {
         getItemQuantity,
@@ -38,14 +40,16 @@ export function StoreItem({
             border="primary"
             style={{ width: "18rem" }}
         >
-            <Card.Img
-                variant="top"
-                src={imgUrl}
-                style={{ objectFit: "cover" }}
-                className="mb-3"
-                height="250px"
-                width="250px"
-            />
+            <div onClick={onImageClick} style={{ cursor: "pointer" }}>
+                <Card.Img
+                    variant="top"
+                    src={imgUrl}
+                    style={{ objectFit: "cover" }}
+                    className="mb-3"
+                    height="250px"
+                    width="250px"
+                />
+            </div>
             <Card.Body className="d-flex flex-column">
                 <div className="d-flex justify-content-between align-items-baseline mb-3">
                     <span className="fs-5">{brand}</span>
